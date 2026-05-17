@@ -20,7 +20,6 @@ const page = () => {
         }
     };
 
-
     useEffect(() => {
         fetchEvents();
     }, [])
